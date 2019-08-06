@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>카페 등록</title>
+  </head>
+  <body>
+    <div class="new_cafe_container">
+      <h1>카페 등록</h1>
+      <form class="new_cafe_form" method="post" enctype="multipart/form-data">
+        <div>
+          <label for="cafe_title">카페명</label>
+          <input type="text" name="title" id="cafe_title" />
+        </div>
+
+        <div>
+          <label for="cafe_short_description">한줄 설명</label>
+          <input type="text" name="short_description" id="cafe_short_description" />
+        </div>
+
+        <div>
+          <label for="cafe_description">상세 설명</label>
+          <textarea name="description" id="cafe_description" rows="8" cols="80"></textarea>
+        </div>
+
+        <div>
+          <label for="cafe_phone_number">전화번호</label>
+          <input type="text" name="phone_number" id="cafe_phone_number" />
+        </div>
+
+        <div>
+          <label for="cafe_address">주소</label>
+          <input type="text" name="address" id="cafe_address" />
+        </div>
+
+        <div>
+          <label for="cafe_business_hours">영업시간</label>
+          <input type="text" name="business_hours" id="cafe_business_hours" />
+        </div>
+
+        <div>
+          <label for="cafe_closed_day">휴무일</label>
+          <input type="text" name="closed_day" id="cafe_closed_day" />
+        </div>
+
+        <div>
+          <label for="cafe_menu">메뉴</label>
+          <input type="text" name="menu" id="cafe_menu" />
+        </div>
+
+        <div>
+          <label for="cafe_photo">사진</label>
+          <input type="file" name="photo" id="cafe_photo" accept="image/*" multiple/>
+        </div>
+
+        <input type="submit" value="등록" class="regist_cafe_button" />
+      </form>
+    </div>
+  </body>
+</html>
