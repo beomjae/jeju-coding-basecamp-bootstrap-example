@@ -1,0 +1,24 @@
+/* 카페 조회 페이지 */
+.cafe_detail_container { margin-top: 20px; margin-bottom: 40px;}
+.cafe_detail_container .cafe_title { margin: 20px auto; text-align: center;  font-size: 2rem;}
+.cafe_detail_container .cafe_main_image_container { margin: 20px auto; text-align: center;}
+.cafe_detail_container .cafe_main_image { width: 70%; }
+.cafe_detail_container .cafe_short_description { margin: 20px auto; text-align: center; }
+.cafe_detail_container .cafe_description { margin: 24px auto 36px auto; text-align: center; }
+.cafe_detail_container .divider { margin: 24px auto; }
+.cafe_detail_container .cafe_photos_title { text-align: center; }
+.cafe_detail_container .cafe_info_title { text-align: center; }
+.cafe_detail_container .cafe_photos_container .cafe_photo { margin-top: 2rem; }
+
+/* 카페 목록 페이지 */
+.cafe_list_container { margin-top: 20px; margin-bottom: 40px;}
+.cafe_list_container .cafe_list__title { text-align: center; margin-top: 20px; font-size: 2rem;}
+.cafe_list_container .cafe_list__categories_container { margin: 40px auto; }
+.cafe_list_container .cafe_list__cafe_item { min-width: 18rem; margin-bottom: 3rem;}
+.cafe_list_container .cafe_list__cafe_item .cafe_item__title { text-align: center; }
+.cafe_list_container .cafe_list__cafe_item .cafe_item__title a { text-decoration: none; }
+
+/* 카페 등록 페이지 */
+.new_cafe_container { margin-top: 20px; margin-bottom: 40px;}
+.new_cafe_container .new_cafe_title { font-size: 2rem; }
+.new_cafe_container .new_cafe_form { margin-top: 40px;}
