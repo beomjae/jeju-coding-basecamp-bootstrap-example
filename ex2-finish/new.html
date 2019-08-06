@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>카페 등록</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">제주카페</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="list.html">카페목록</a>
+            <a class="nav-item nav-link active" href="new.html">카페등록</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="new_cafe_container">
+        <h1 class="new_cafe_title">카페 등록</h1>
+        <form class="new_cafe_form" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="cafe_title">카페명</label>
+            <input type="text" name="title" id="cafe_title" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label for="cafe_short_description">한줄 설명</label>
+            <input type="text" name="short_description" id="cafe_short_description" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label for="cafe_description">상세 설명</label>
+            <textarea name="description" id="cafe_description" class="form-control" rows="8" cols="80"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="cafe_phone_number">전화번호</label>
+            <input type="text" name="phone_number" id="cafe_phone_number" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label for="cafe_address">주소</label>
+            <input type="text" name="address" id="cafe_address" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label for="cafe_business_hours">영업시간</label>
+            <input type="text" name="business_hours" id="cafe_business_hours" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label for="cafe_closed_day">휴무일</label>
+            <input type="text" name="closed_day" id="cafe_closed_day" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label for="cafe_menu">메뉴</label>
+            <input type="text" name="menu" id="cafe_menu" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label for="cafe_photo">사진</label>
+            <input type="file" name="photo" id="cafe_photo" class="form-control" accept="image/*" multiple/>
+          </div>
+
+          <input type="submit" value="등록" class="regist_cafe_button btn btn-primary" />
+        </form>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
